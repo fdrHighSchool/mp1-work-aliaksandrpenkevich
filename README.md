@@ -2,9 +2,9 @@
 ## fall-22-mp1-work
 
 
-### Last Name:  
-### First Name: 
-### GitHub Username: 
+### Last Name: Penkevich
+### First Name: Aliaksandr
+### GitHub Username: aliaksandrpenkevich
 
 ---
 #### General Workflow: 
