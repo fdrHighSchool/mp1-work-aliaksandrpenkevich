@@ -23,6 +23,9 @@ public class Main {
     System.out.println((firstName) + initialize(lastName) + (favNum) + "@schools.nyc.gov");
     }
 
+
+    
+    System.out.print("Your password is: " + generatePassword(10)); 
     s.close();
   } // end main method
 
@@ -36,4 +39,23 @@ public class Main {
     return n.substring(0, 1);
   } // end initialize method
 
-} // end class
+
+
+  public static String generatePassword(int length) {
+    String password = "";
+
+    for (int i = 0; i < length; i++) {
+    // generate a random number
+    // 65 - 90 capital letter
+    // 97 - 122 lower case
+    // 33 - 47 special symbols
+    
+    int randcl = (int)(Math.random()*(122-33+1) + 33);
+    // convert the int ---> character c =(char)i;
+    char a = (char)randcl;
+    password += a;
+    // add the char to the password String
+    } // end for loop 
+    return password;
+  } // end generatePassword method
+}
